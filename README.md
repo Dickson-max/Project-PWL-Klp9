@@ -1,1 +1,8 @@
-Pada aplikasi GOTIN terdapat 4 page yaitu homepage, login/register, menu dan pesanan anda. Pada halaman homepage terdapat  header yang terdiri dari bagian untuk pindah halaman dan profil, kemudian terdapat juga banner/promosi yang dicantumkan untuk mempromosikan barang yang akan ditawarkan, juga pilihan makanan dari berbagai kantin yang dilengkapi dengan tombol lihat semua menu, untuk melihat menu dengan lengkap dan yang terakhir bagian footer. Halaman pesanan anda terdapat pesanan yang sedang kita pesan/diproses, pada halaman menu hanya terdapat berbagai menu beserta dengan harga dan deskripsi dari masing masing kantin dan yang terakhir halaman login yang terdiri dari kolom search untuk memasukkan email maupun nomor telepon untuk masuk/membuat akun.
+# ✌️ PERKENALAN GOTIN
+"Discover our online food ordering system for school cafeterias! Browse menus, order, and pay digitally, reducing wait times and boosting efficiency. A convenient, user-friendly platform for a modern dining experience."
+# 👍 FITUR WEBSITE
+Our application allows you to order food from anywhere, eliminating queues and hassle, and features digital payment options for secure transactions, as well as an easy food search function to quickly find your favorite menu items, making your cafeteria experience easier, faster, and more enjoyable.
+# 💖 BENEFIT USING OUR WEBSITE
+"Using our website offers several benefits, including increased efficiency, time savings, and convenient cashless payments. You'll also avoid physical queues and sometimes enjoy exclusive discounts, making your food ordering experience more convenient and rewarding."
+#   Author
+Developed by Dickson D.Lim, Luis Fabian Lorenso, Davin Jonas
