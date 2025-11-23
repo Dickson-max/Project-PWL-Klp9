@@ -118,108 +118,121 @@ html, body {
   background-color: #ccffcc;
 }
 
-.promo {
-    height: 625px;
-    width: 1300px;
-    margin-top: 25px;
-    margin-left: 105px;
-    border-radius: 15px;
-}
-
-.hp7 {
+.proses  {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    padding-left: 120px;
+    padding-top: 10px;
+    padding-left: 40px;
+    font-size: 30px;
 }
 
-.produk > div {
-    background-color: white;
-    border-radius: 5px;
-    padding: 10px;
+.proses a {
+    text-decoration: none;
+    transition: 0.3 ease;
+    color: black;
+}
+
+.proses a:hover::after {
+    transition-duration: 0.5s;
+    content: "";
+    width: 15%;
+    height: 3px;   
+    background: #00880d;
+    position: absolute;
+    top: 80px;
+    left: 606px;
+}
+
+.kantinmami  {
+border-radius: 999px;
+width: 80px;
+margin-left: 40px;
+margin-top: 40px;
+}
+
+.proses1 {
+    font-family: Arial, Helvetica, sans-serif;   
+    margin-left: 150px;
+    margin-top: -80px;
+}
+
+.proses2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
     margin-top: -10px;
-    margin-left: 30px;
+    font-size: 15px;
+    margin-left: 150px;
+}
+
+.proses3 {
+    font-family: Arial, Helvetica, sans-serif;   
+    font-size: 15px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.proses4 {
     font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 15px;
-    width: 250px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    font-size: 15px;
+    margin-left: 40px;
 }
 
-.produk {
-  display: flex;  
-  flex-direction: row;
-  gap: 45px;           
-  justify-content: center;
+.line {
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
-.produk2 {
-    width: 250px;
-    border-radius: 5px;
+.proses5 {
+    font-family: Arial, Helvetica, sans-serif;   
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
 }
 
-.hp8 {
+.proses6 {
+    font-family: Arial, Helvetica, sans-serif;   
+    font-size: 20px;
+    margin-left: 1220px;
+    margin-top: -220px;
+}
+
+.proses7 {
+    font-family: Arial, Helvetica, sans-serif;   
+    font-size: 20px;
+    margin-left: 1447px;
+    margin-top: 65px;
+    font-size: 15px;
+}
+
+.proses8 {
+    font-family: Arial, Helvetica, sans-serif;   
+    font-size: 20px;
+    margin-left: 1455px;
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+.proses9 {
+    font-family: Arial, Helvetica, sans-serif;   
+    margin-left: 1435px;
+    margin-top: 35px;
+    font-size: 15px;
     font-size: 20px;
 }
 
-.hp9 {
-    font-size: 10px;
-    font-weight: normal;
-}
-
-.hp10 {
-  display: inline-block;
-  background-color: #e6ffe6;
-  color: #00880d;
-  padding: 10px 20px;
-  border-radius: 999px;
-  font-size: 20px;
-  font-weight: bold;
-  cursor: pointer;
-  margin-left: 630px;
-  margin-top: 55px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.hp10:hover {
-  background-color: #ccffcc;
-}
-
-.footer {
+.proses10 {
   background-color: #00880d;
-  color: #fff;
-  padding: 30px 20px;
-  margin-top: 40px;
+  color: white;
+  border-radius: 10px;
+  height: 30px;
+  font-size: 20px;
+  font-style: bold;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.footer-container {
+  border: none;
+  cursor: pointer;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.footer-left {
-  min-width: 200px;
-}
-
-.footer-right ul {
-  list-style: none;
-}
-
-.footer-right ul li {
-  margin-bottom: 8px;
-}
-
-.footer-right ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.footer-right ul li a:hover {
-  text-decoration: underline;
-}
-
-.footer-bottom {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 14px;
+  justify-content: center;
+  padding-top: 10px;
+  width: 150px;
+  margin-left: 1360px;
+  margin-top: 10px;
 }

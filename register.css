@@ -1,0 +1,40 @@
+/* ======================================= */
+/* 7. Checkbox Syarat & Ketentuan */
+/* ======================================= */
+
+.syarat-ketentuan {
+    display: flex;
+    align-items: flex-start; /* Untuk menyelaraskan teks jika panjang */
+    margin-bottom: 30px; 
+    font-size: 12px;
+    color: #555;
+}
+
+.syarat-ketentuan input[type="checkbox"] {
+    /* Gaya checkbox default */
+    margin-top: 2px;
+    margin-right: 10px;
+    /* Ubah ukuran jika perlu agar terlihat lebih besar */
+    width: 16px;
+    height: 16px;
+    accent-color: #00a33d; /* Warna kotak centang aktif */
+}
+
+.syarat-ketentuan label {
+    display: inline; /* Menampilkan label kembali, khusus untuk area ini */
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.syarat-ketentuan a {
+    color: #00a33d;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+/* Kustomisasi link area untuk Daftar */
+/* Hapus tautan Lupa Password di halaman ini, dan tata letak link-area yang disesuaikan */
+.link-area {
+    justify-content: flex-start; /* Geser ke kiri */
+    margin-bottom: 15px; /* Kurangi jarak dengan checkbox */
+}

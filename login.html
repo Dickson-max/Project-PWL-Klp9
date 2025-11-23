@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <title>GO-TIN | Masuk Akun</title>
+  <link rel="stylesheet" href="login.css">
+  <link rel="icon" type="image/png" href="gambar/logo.png"> </head>
+<body>
+  <div class="login">
+    <div class="login1">
+      <div class="header">
+        <div class="kembali">
+          <a href="homepage.html" class="back">←</a> 
+        </div>
+        <img src="gambar/logo.jpeg" alt="logo" class="logo">
+        <h2>Gotin</h2>
+      </div>
+      
+      <h3>Masuk ke akunmu</h3>
+      <p>Senang melihatmu kembali! Yuk, masuk untuk mulai beraktivitas di Gotin.</p>
+      
+      <form id="loginForm">
+        <input 
+          type="email" 
+          id="email" 
+          placeholder="Masukkan email"
+          class="text-input"
+          required
+        >
+        
+        <input 
+          type="password" 
+          id="password" 
+          placeholder="Masukkan password"
+          class="text-input"
+          required
+        >
+
+        <div class="link-area">
+          <span>Belum punya akun? <a href="#" class="form-link">Daftar di sini</a></span>
+          <a href="#" class="form-link lupa-pass">Lupa password?</a>
+        </div>
+        
+        <button type="submit" id="continueBtn" disabled>
+          Login
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>
